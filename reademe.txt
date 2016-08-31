@@ -1,0 +1,4 @@
+这是一个测试java service wrpper应用
+官方网址：http://wrapper.tanukisoftware.com/
+本例官方介绍：http://wrapper.tanukisoftware.com/doc/english/app-hello-world-server.html
+配置官方教程：http://wrapper.tanukisoftware.com/doc/english/qna-service.html

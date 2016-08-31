@@ -1,0 +1,406 @@
+STATUS | wrapper  | 2016/08/26 15:55:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/26 15:55:56 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/26 15:55:56 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/26 15:55:56 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/26 15:55:56 | 
+STATUS | wrapper  | 2016/08/26 15:55:58 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 15:55:58 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 15:55:58 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="IYBdYV2oiG694lkU" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1144 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/26 15:55:58 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/26 15:55:59 | Accepting connections on port: 9000
+INFO   | jvm 1    | 2016/08/26 15:56:06 | 1 Connected.
+INFO   | jvm 1    | 2016/08/26 15:56:07 | 1 Read: ha
+INFO   | jvm 1    | 2016/08/26 15:56:07 | 1 Write: echo ha
+INFO   | jvm 1    | 2016/08/26 15:56:08 | 1 Read: 
+INFO   | jvm 1    | 2016/08/26 15:56:08 | 1 Write: echo 
+INFO   | jvm 1    | 2016/08/26 15:56:10 | 1 Read: go
+INFO   | jvm 1    | 2016/08/26 15:56:10 | 1 Write: echo go
+INFO   | jvm 1    | 2016/08/26 15:56:13 | 1 Read: crash
+INFO   | jvm 1    | 2016/08/26 15:56:13 | 1 Simulating a crash of the Server...
+ERROR  | wrapper  | 2016/08/26 15:56:13 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/26 15:56:18 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 15:56:18 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 15:56:18 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="baQDPaPMIWyiklxU" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1144 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=2 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 2    | 2016/08/26 15:56:18 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2016/08/26 15:56:18 | Accepting connections on port: 9000
+STATUS | wrapper  | 2016/08/26 15:56:33 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2016/08/26 15:56:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/26 16:08:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/26 16:08:33 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/26 16:08:33 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/26 16:08:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/26 16:08:33 | 
+STATUS | wrapper  | 2016/08/26 16:08:33 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 16:08:33 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 16:08:33 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="NXLoWwSSeQIaR5kV" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7528 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/26 16:08:33 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/26 16:08:33 | Accepting connections on port: 9000
+ERROR  | wrapper  | 2016/08/26 16:10:03 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/26 16:10:08 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 16:10:08 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 16:10:08 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="hpA-_BFGRxFREAbi" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7528 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=2 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 2    | 2016/08/26 16:10:08 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2016/08/26 16:10:08 | Accepting connections on port: 9000
+INFO   | jvm 1    | 2016/08/26 16:23:18 | 1 Read: 2
+INFO   | jvm 1    | 2016/08/26 16:23:18 | 1 Write: echo 2
+INFO   | jvm 1    | 2016/08/26 16:23:19 | 1 Read: 3
+INFO   | jvm 1    | 2016/08/26 16:23:19 | 1 Write: echo 3
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: fsadfsad
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo fsadfsad
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: f
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: sadf
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo sadf
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: sad
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo sad
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: f
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Read: sa
+INFO   | jvm 1    | 2016/08/26 16:23:20 | 1 Write: echo sa
+INFO   | jvm 1    | 2016/08/26 16:23:30 | 1 Read: exit
+INFO   | jvm 1    | 2016/08/26 16:23:30 | 1 Closing Connection.
+INFO   | jvm 1    | 2016/08/26 16:23:36 | 2 Connected.
+INFO   | jvm 1    | 2016/08/26 16:23:39 | 2 Read: 12
+INFO   | jvm 1    | 2016/08/26 16:23:39 | 2 Write: echo 12
+INFO   | jvm 1    | 2016/08/26 16:23:40 | 2 Read: dsaf
+INFO   | jvm 1    | 2016/08/26 16:23:40 | 2 Write: echo dsaf
+INFO   | jvm 1    | 2016/08/26 16:23:45 | 2 Read: exit
+INFO   | jvm 1    | 2016/08/26 16:23:45 | 2 Closing Connection.
+STATUS | wrapper  | 2016/08/26 16:25:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/26 16:25:17 | --> Wrapper Started as Service
+STATUS | wrapper  | 2016/08/26 16:25:17 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/26 16:25:17 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/26 16:25:17 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/26 16:25:17 | 
+STATUS | wrapper  | 2016/08/26 16:25:17 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 16:25:17 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 16:25:17 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="Tg5GZQda8saxa3h8" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10208 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.service="TRUE" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/26 16:25:18 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/26 16:25:18 | Accepting connections on port: 9000
+STATUS | wrapper  | 2016/08/26 16:26:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/26 16:27:13 | --> Wrapper Started as Service
+STATUS | wrapper  | 2016/08/26 16:27:13 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/26 16:27:13 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/26 16:27:13 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/26 16:27:13 | 
+STATUS | wrapper  | 2016/08/26 16:27:13 | Launching a JVM...
+INFO   | wrapper  | 2016/08/26 16:27:13 | Java Command Line:
+INFO   | wrapper  | 2016/08/26 16:27:13 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="UjlStJePBHEHyERw" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9636 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.service="TRUE" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/26 16:27:14 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/26 16:27:14 | Accepting connections on port: 9000
+STATUS | wrapperm | 2016/08/26 16:27:31 | Stopping the Hello World Server service...
+STATUS | wrapper  | 2016/08/26 16:27:32 | <-- Wrapper Stopped
+STATUS | wrapperm | 2016/08/26 16:27:33 | Hello World Server service stopped.
+STATUS | wrapperm | 2016/08/26 16:30:38 | Hello World Server service removed.
+STATUS | wrapper  | 2016/08/28 14:25:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/28 14:25:59 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/28 14:25:59 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/28 14:25:59 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/28 14:25:59 | 
+STATUS | wrapper  | 2016/08/28 14:26:00 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:26:00 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:26:00 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="nIUhnxKKCQvbI7bB" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8896 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/28 14:26:01 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/28 14:26:02 | Accepting connections on port: 9000
+STATUS | wrapper  | 2016/08/28 14:26:17 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2016/08/28 14:26:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/28 14:26:27 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/28 14:26:27 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/28 14:26:27 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/28 14:26:27 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/28 14:26:27 | 
+STATUS | wrapper  | 2016/08/28 14:26:27 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:26:27 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:26:27 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="ozC6TMijdMndYMtT" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5940 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer status
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp: 
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: Encountered an error running main:
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: java.lang.NumberFormatException: For input string: "status"
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at java.lang.Integer.parseInt(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at java.lang.Integer.parseInt(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at HelloWorldServer.main(HelloWorldServer.java:82)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:27 | WrapperSimpleApp Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:325)
+INFO   | jvm 1    | 2016/08/28 14:26:28 | WrapperSimpleApp Error: 	at java.lang.Thread.run(Unknown Source)
+STATUS | wrapper  | 2016/08/28 14:26:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/28 14:26:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/28 14:26:43 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/28 14:26:43 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/28 14:26:43 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/28 14:26:43 | 
+STATUS | wrapper  | 2016/08/28 14:26:44 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:26:44 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:26:44 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="oPlSVHPUhMieLRil" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11208 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer start
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp: 
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: Encountered an error running main:
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: java.lang.NumberFormatException: For input string: "start"
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at java.lang.Integer.parseInt(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at java.lang.Integer.parseInt(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at HelloWorldServer.main(HelloWorldServer.java:82)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:325)
+INFO   | jvm 1    | 2016/08/28 14:26:44 | WrapperSimpleApp Error: 	at java.lang.Thread.run(Unknown Source)
+STATUS | wrapper  | 2016/08/28 14:26:46 | <-- Wrapper Stopped
+ERROR  | wrapperm | 2016/08/28 14:27:08 | The Hello World Server service is not installed - ÷∏∂®µƒ∑˛ŒÒŒ¥∞≤◊∞°£ (0x424)
+STATUS | wrapperm | 2016/08/28 14:27:56 | The Hello World Server Service is not installed.
+STATUS | wrapper  | 2016/08/28 14:28:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/28 14:28:18 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/28 14:28:18 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/28 14:28:18 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/28 14:28:18 | 
+STATUS | wrapper  | 2016/08/28 14:28:18 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:28:18 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:28:18 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="oZ7DP3Rp9XTmXPEC" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12200 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/28 14:28:18 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/28 14:28:18 | Accepting connections on port: 9000
+STATUS | wrapperm | 2016/08/28 14:29:39 | The Hello World Server Service is not installed.
+STATUS | wrapper  | 2016/08/28 14:30:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/28 14:30:25 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/28 14:30:25 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/28 14:30:25 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/28 14:30:25 | 
+STATUS | wrapper  | 2016/08/28 14:30:25 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:30:25 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:30:25 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="pEnUOhV386ixLXFP" -Dwrapper.port=32001 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10460 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/28 14:30:26 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/28 14:30:28 | Accepting connections on port: 9000
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp: 
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: Encountered an error running main:
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at HelloWorldServer.main(HelloWorldServer.java:86)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:325)
+INFO   | jvm 1    | 2016/08/28 14:30:28 | WrapperSimpleApp Error: 	at java.lang.Thread.run(Unknown Source)
+STATUS | wrapper  | 2016/08/28 14:30:30 | <-- Wrapper Stopped
+INFO   | jvm 1    | 2016/08/28 14:30:50 | 1 Connected.
+INFO   | jvm 1    | 2016/08/28 14:30:55 | 1 Read: dfadf
+INFO   | jvm 1    | 2016/08/28 14:30:55 | 1 Write: echo dfadf
+INFO   | jvm 1    | 2016/08/28 14:30:58 | 1 Read: exit
+INFO   | jvm 1    | 2016/08/28 14:30:58 | 1 Closing Connection.
+INFO   | jvm 1    | 2016/08/28 14:31:01 | 2 Connected.
+INFO   | jvm 1    | 2016/08/28 14:31:04 | 2 Read: crash
+INFO   | jvm 1    | 2016/08/28 14:31:04 | 2 Simulating a crash of the Server...
+ERROR  | wrapper  | 2016/08/28 14:31:04 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/28 14:31:09 | Launching a JVM...
+INFO   | wrapper  | 2016/08/28 14:31:09 | Java Command Line:
+INFO   | wrapper  | 2016/08/28 14:31:09 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="mxbu-a3ZEmPM20zv" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12200 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=2 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 2    | 2016/08/28 14:31:09 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2016/08/28 14:31:09 | Accepting connections on port: 9000
+STATUS | wrapper  | 2016/08/28 14:32:27 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2016/08/28 14:32:28 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/08/30 18:50:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/08/30 18:50:41 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/30 18:50:41 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/30 18:50:41 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/30 18:50:41 | 
+STATUS | wrapper  | 2016/08/30 18:50:42 | Launching a JVM...
+INFO   | wrapper  | 2016/08/30 18:50:42 | Java Command Line:
+INFO   | wrapper  | 2016/08/30 18:50:42 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="biVGV6B8ixRPYQgm" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4120 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/30 18:50:42 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/30 18:50:44 | Accepting connections on port: 9000
+INFO   | jvm 1    | 2016/08/30 18:51:31 | 1 Connected.
+INFO   | jvm 1    | 2016/08/30 18:51:39 | 1 Read: hello
+INFO   | jvm 1    | 2016/08/30 18:51:39 | 1 Write: echo hello
+INFO   | jvm 1    | 2016/08/30 18:51:50 | 1 Read: dfsasa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo dfsasa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: f
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: saf
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo saf
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: 
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo 
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: dsa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo dsa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: fsa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo fsa
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Read: df
+INFO   | jvm 1    | 2016/08/30 18:51:55 | 1 Write: echo df
+INFO   | jvm 1    | 2016/08/30 18:51:57 | 1 Read: sadsdf
+INFO   | jvm 1    | 2016/08/30 18:51:57 | 1 Write: echo sadsdf
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: 
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo 
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: dsaf
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo dsaf
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: s
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo s
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: daf
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo daf
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: sda
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo sda
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: f
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Read: sa
+INFO   | jvm 1    | 2016/08/30 18:51:58 | 1 Write: echo sa
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Read: df
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Write: echo df
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Read: sa
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Write: echo sa
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Read: f
+INFO   | jvm 1    | 2016/08/30 18:51:59 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/30 18:52:10 | 2 Connected.
+INFO   | jvm 1    | 2016/08/30 18:52:14 | 2 Read: 
+INFO   | jvm 1    | 2016/08/30 18:52:14 | 2 Write: echo 
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: dsf
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo dsf
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: sa
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo sa
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: fds
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo fds
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: df
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo df
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: sda
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo sda
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Read: f
+INFO   | jvm 1    | 2016/08/30 18:52:15 | 2 Write: echo f
+INFO   | jvm 1    | 2016/08/30 18:52:22 | 2 Read: dsf
+INFO   | jvm 1    | 2016/08/30 18:52:22 | 2 Write: echo dsf
+INFO   | jvm 1    | 2016/08/30 18:52:27 | 2 Read: exit
+INFO   | jvm 1    | 2016/08/30 18:52:27 | 2 Closing Connection.
+INFO   | jvm 1    | 2016/08/30 18:52:35 | 3 Connected.
+INFO   | jvm 1    | 2016/08/30 18:52:41 | 3 Closed.
+INFO   | jvm 1    | 2016/08/30 18:52:54 | 1 Read: exit
+INFO   | jvm 1    | 2016/08/30 18:52:54 | 1 Closing Connection.
+INFO   | jvm 1    | 2016/08/30 18:53:02 | 4 Connected.
+INFO   | jvm 1    | 2016/08/30 18:53:28 | 4 Read: crash
+INFO   | jvm 1    | 2016/08/30 18:53:28 | 4 Simulating a crash of the Server...
+ERROR  | wrapper  | 2016/08/30 18:53:29 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/30 18:53:33 | Launching a JVM...
+INFO   | wrapper  | 2016/08/30 18:53:33 | Java Command Line:
+INFO   | wrapper  | 2016/08/30 18:53:33 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="nkXeT4p7QLmlPapm" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4120 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=2 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 2    | 2016/08/30 18:53:34 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2016/08/30 18:53:34 | Accepting connections on port: 9000
+INFO   | jvm 2    | 2016/08/30 18:53:41 | 1 Connected.
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: sadfsaf
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo sadfsaf
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: ad
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo ad
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: sf
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo sf
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: ds
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo ds
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: fsa
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo fsa
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Read: fs
+INFO   | jvm 2    | 2016/08/30 18:53:43 | 1 Write: echo fs
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Read: af
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Write: echo af
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Read: dsaf
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Write: echo dsaf
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Read: saf
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Write: echo saf
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Read: 
+INFO   | jvm 2    | 2016/08/30 18:53:44 | 1 Write: echo 
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Read: sdf
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Write: echo sdf
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Read: a
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Write: echo a
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Read: fd
+INFO   | jvm 2    | 2016/08/30 18:53:45 | 1 Write: echo fd
+INFO   | jvm 2    | 2016/08/30 18:53:52 | 1 Read: crash
+INFO   | jvm 2    | 2016/08/30 18:53:52 | 1 Simulating a crash of the Server...
+ERROR  | wrapper  | 2016/08/30 18:53:52 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/30 18:53:57 | Launching a JVM...
+INFO   | wrapper  | 2016/08/30 18:53:57 | Java Command Line:
+INFO   | wrapper  | 2016/08/30 18:53:57 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="NIC9pqiKk-JzXRjR" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4120 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=3 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 3    | 2016/08/30 18:53:58 | WrapperManager: Initializing...
+INFO   | jvm 3    | 2016/08/30 18:53:58 | Accepting connections on port: 9000
+INFO   | jvm 3    | 2016/08/30 18:54:09 | 1 Connected.
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Read: sdafdsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Write: echo sdafdsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Read: dsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Write: echo dsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Read: f
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Write: echo f
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Read: dsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Write: echo dsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Read: fdsa
+INFO   | jvm 3    | 2016/08/30 18:54:11 | 1 Write: echo fdsa
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Read: f
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Write: echo f
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Read: dsf
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Write: echo dsf
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Read: sa
+INFO   | jvm 3    | 2016/08/30 18:54:12 | 1 Write: echo sa
+INFO   | jvm 3    | 2016/08/30 18:54:39 | 1 Read: f
+INFO   | jvm 3    | 2016/08/30 18:54:39 | 1 Write: echo f
+INFO   | jvm 3    | 2016/08/30 18:54:39 | 1 Closed.
+STATUS | wrapper  | 2016/08/30 18:54:41 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2016/08/30 18:54:41 | <-- Wrapper Stopped
+STATUS | wrapperm | 2016/08/30 18:58:18 | Hello World Server service installed.
+STATUS | wrapper  | 2016/08/30 19:00:08 | --> Wrapper Started as Service
+STATUS | wrapper  | 2016/08/30 19:00:08 | Java Service Wrapper Community Edition 32-bit 3.5.29
+STATUS | wrapper  | 2016/08/30 19:00:08 |   Copyright (C) 1999-2016 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2016/08/30 19:00:08 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2016/08/30 19:00:08 | 
+STATUS | wrapper  | 2016/08/30 19:00:08 | Launching a JVM...
+INFO   | wrapper  | 2016/08/30 19:00:08 | Java Command Line:
+INFO   | wrapper  | 2016/08/30 19:00:08 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="eYtk4XmAvlhzmDBR" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1028 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.service="TRUE" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 1    | 2016/08/30 19:00:09 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2016/08/30 19:00:09 | Accepting connections on port: 9000
+INFO   | jvm 1    | 2016/08/30 19:00:55 | 1 Connected.
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Read: asdfsadf
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Write: echo asdfsadf
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Read: 
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Write: echo 
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Read: dsa
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Write: echo dsa
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Read: f
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Write: echo f
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Read: sa
+INFO   | jvm 1    | 2016/08/30 19:00:58 | 1 Write: echo sa
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Read: fd
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Write: echo fd
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Read: sa
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Write: echo sa
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Read: fdsa
+INFO   | jvm 1    | 2016/08/30 19:00:59 | 1 Write: echo fdsa
+INFO   | jvm 1    | 2016/08/30 19:01:07 | 1 Read: fc
+INFO   | jvm 1    | 2016/08/30 19:01:07 | 1 Write: echo fc
+INFO   | jvm 1    | 2016/08/30 19:01:07 | 1 Read: 
+INFO   | jvm 1    | 2016/08/30 19:01:07 | 1 Write: echo 
+INFO   | jvm 1    | 2016/08/30 19:01:09 | 1 Read: crash
+INFO   | jvm 1    | 2016/08/30 19:01:09 | 1 Simulating a crash of the Server...
+ERROR  | wrapper  | 2016/08/30 19:01:09 | JVM exited unexpectedly.
+STATUS | wrapper  | 2016/08/30 19:01:14 | Launching a JVM...
+INFO   | wrapper  | 2016/08/30 19:01:14 | Java Command Line:
+INFO   | wrapper  | 2016/08/30 19:01:14 |   Command: "C:\ProgramData\Oracle\Java\javapath\java.exe" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/classes" -Dwrapper.key="DXgpgqzmSPYXW-v-" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1028 -Dwrapper.version="3.5.29" -Dwrapper.native_library="wrapper" -Dwrapper.arch="x86" -Dwrapper.service="TRUE" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=2 org.tanukisoftware.wrapper.WrapperSimpleApp HelloWorldServer
+INFO   | jvm 2    | 2016/08/30 19:01:14 | WrapperManager: Initializing...
+INFO   | jvm 2    | 2016/08/30 19:01:14 | Accepting connections on port: 9000
+INFO   | jvm 2    | 2016/08/30 19:01:22 | 1 Connected.
+INFO   | jvm 2    | 2016/08/30 19:01:23 | 1 Read: sad
+INFO   | jvm 2    | 2016/08/30 19:01:23 | 1 Write: echo sad
+INFO   | jvm 2    | 2016/08/30 19:01:24 | 1 Read: fa
+INFO   | jvm 2    | 2016/08/30 19:01:24 | 1 Write: echo fa
+INFO   | jvm 2    | 2016/08/30 19:01:24 | 1 Read: 
+INFO   | jvm 2    | 2016/08/30 19:01:24 | 1 Write: echo 
+INFO   | jvm 2    | 2016/08/30 19:01:27 | 1 Read: ¿¿»»µµΩΩ∑∑¬¬
+INFO   | jvm 2    | 2016/08/30 19:01:27 | 1 Write: echo ¿¿»»µµΩΩ∑∑¬¬
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Read: [A[Asfdsaf
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Write: echo [A[Asfdsaf
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Read: 
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Write: echo 
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Read: 
+INFO   | jvm 2    | 2016/08/30 19:04:27 | 1 Write: echo 
+INFO   | jvm 2    | 2016/08/30 19:04:32 | 1 Read: q
+INFO   | jvm 2    | 2016/08/30 19:04:32 | 1 Write: echo q
+INFO   | jvm 2    | 2016/08/30 19:04:33 | 1 Read: exit
+INFO   | jvm 2    | 2016/08/30 19:04:33 | 1 Closing Connection.
